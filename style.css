@@ -1,7 +1,35 @@
 body{
-	background-color: #282a36;
+	background-color: #11111b;
+	font-family: FiraCode Nerd Font;
+	::selection{
+        background-color: #585b70;
+    }
 }
 
-.btn{
-	background-color: #44475a;
+.container{
+	background-color: #1e1e2e;
+	padding: 15px;
+	margin: 15%;
+	color: #cdd6f4;
+}
+
+.head{
+	background-color: #cdd6f4;
+	text-align: center;
+	color: #11111b;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.linkcontainer{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+li{
+	text-align: start;
+	color: #cdd6f4;
+}
+li a{
+	text-decoration: none;
 }
