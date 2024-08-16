@@ -1,10 +1,11 @@
 @font-face {
-	font-family: Fira Code, monospace;
-	src: url();
+	font-family: FiraCode Nerd Font;
+	src: url(/src/fonts/FiraCodeNerdFont-Medium.ttf);
 }
 
 body{
 	background-color: #11111b;
+	font-family: FiraCode Nerd Font, monospace
 }
 
 body ::selection{
