@@ -5,7 +5,8 @@
 
 body{
 	background-color: #1e1e2e;
-	font-family: FiraCode Nerd Font, monospace
+	font-family: FiraCode Nerd Font, monospace;
+	padding: 10% 25% 10% 25%;
 }
 
 body ::selection{
@@ -15,8 +16,8 @@ body ::selection{
 .container{
 	background-color: #11111b;
 	padding: 15px 15px 15px 15px;
-	margin: 13% 25% 13% 25%;
 	color: #cdd6f4;
+	border-radius: 10px;
 }
 
 .hero{
@@ -24,35 +25,31 @@ body ::selection{
 	text-align: center;
 	color: #11111b;
 	padding: 20px 20px 20px 20px;
+	border-radius: 5px;
 }
 
 .hero h2{
 	font-size: 30px;
+	padding: 10px;
 	text-shadow: 3px -1px 0 #f5c2e7, -3px 1px 0 #74c7ec;
-	/* -webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: #11111b; */
 }
 
 /* Website lists */
 
 .linkcontainer{
+	background-color: #181825;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	background-color: #181825;
 	margin-top: 20px;
 	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
 }
 
 ul{
 	list-style-type: none;
 	padding-left: 0%;
 	text-align: center;
-}
-
-ul p{
-	font-weight: bolder;
-	font-size: x-large;
 }
 
 /* link Heading color and animations */
