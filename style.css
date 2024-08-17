@@ -4,27 +4,36 @@
 }
 
 body{
-	background-color: #11111b;
+	background-color: #1e1e2e;
 	font-family: FiraCode Nerd Font, monospace
 }
 
 body ::selection{
-	background-color: #585b70;
+	background-color: #9399b21e;
 }
 
 .container{
-	background-color: #1e1e2e;
+	background-color: #11111b;
 	padding: 15px 15px 15px 15px;
 	margin: 13% 25% 13% 25%;
 	color: #cdd6f4;
 }
 
-.head{
-	background-color: #cdd6f4;
+.hero{
+	background: url(src/image/march-7th-march7th.gif) no-repeat #f2cdcd center;
 	text-align: center;
 	color: #11111b;
 	padding: 20px 20px 20px 20px;
 }
+
+.hero h2{
+	font-size: 30px;
+	text-shadow: 3px -1px 0 #f5c2e7, -3px 1px 0 #74c7ec;
+	/* -webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #11111b; */
+}
+
+/* Website lists */
 
 .linkcontainer{
 	display: flex;
@@ -41,6 +50,31 @@ ul{
 	text-align: center;
 }
 
+ul p{
+	font-weight: bolder;
+	font-size: x-large;
+}
+
+/* link Heading color and animations */
+
+#campus{
+	color: #fab387;
+}
+
+#dev{
+	color: #f38ba8;
+}
+
+#media{
+	color: #a6e3a1;
+}
+
+#others{
+	color: #cba6f7;
+}
+
+/* Links */
+
 li{
 	text-align: center;
 	margin:  10px 10px 10px 10px;
@@ -48,5 +82,10 @@ li{
 
 li a{
 	text-decoration: none;
-	color: #cdd6f4;
+	color: #89b4fa;
+}
+
+li a:hover{
+	text-decoration: none;
+	color: #f5e0dc;
 }
