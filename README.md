@@ -2,7 +2,9 @@
 
 ## About
 
+<div align="justify">
 ZenHub is a custom startpage for web browsers designed to be as simple and as straightforward as possible. ZenHub is supported on mulitple web browsers such as **Google Chrome** and **Mozilla Firefox**. I made this because I'm tired of seeing my browser default startpage.
+</div>
 
 ## Showcase
 
