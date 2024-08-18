@@ -9,11 +9,19 @@
 </head>
 <body>
     <div class="container">
+        <div class="fakeButton">
+            <span class="dot" id="close"></span>
+            <span class="dot" id="maximize"></span>
+            <span class="dot" id="minimize"></span>
+        </div>
         <div id="clock">Time</div>
         <div class="hero">
             <h2>Welcome home, Traveler!</h2>
             <p>You look awesome today, keep it up.</p>
         </div>
+        <form id="search" onsubmit="performSearch(event)">
+            <input type="search" name="search" id="search-input" placeholder="Type something...">
+        </form>
         <div class="linkcontainer">
             <ul>
                 <li><h2 id="campus">CAMPUS</h2></li>
@@ -46,5 +54,6 @@
         </div>
     </div>
     <script src="src/js/clock.js"></script>
+    <script src="src/js/search.js"></script>
 </body>
 </html>

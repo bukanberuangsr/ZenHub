@@ -6,29 +6,58 @@
 body{
 	background-color: #1e1e2e;
 	font-family: FiraCode Nerd Font, monospace;
-	padding: 7% 25% 7% 25%;
+	padding: 8% 25% 7% 25%;
+	align-items: center;
+	vertical-align: middle;
 }
 
 body ::selection{
-	background-color: #9399b21e;
+	background-color: #9399b2;
 }
 
 .container{
+	height: 100%;
 	background-color: #11111b;
 	padding: 15px 15px 15px 15px;
 	color: #cdd6f4;
 	border-radius: 10px;
 }
 
-#clock{
-	background-color: #181825;
-	margin-bottom: 20px;
-	padding: 8px;
-	border-radius: 5px;
-	font-size: x-large;
-	text-align: center;
+/* Fake window buttons and content */
+.fakeButton{
+	width: 40%;
+	vertical-align: middle;
+	margin-bottom: 15px;
+	float: left;
 }
 
+.dot {
+	height: 13px;
+	width: 13px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+#close{
+	background-color: #f38ba8;
+}
+
+#maximize{
+	background-color: #a6e3a1;
+}
+
+#minimize{
+	background-color: #fab387;
+}
+
+#clock{
+	margin-bottom: 15px;
+	border-radius: 5px;
+	text-align: right;
+	color: #f5c2e7;
+}
+
+/* Hero Image */
 .hero{
 	background: url(src/image/march-7th-march7th.gif) no-repeat #f2cdcd center;
 	text-align: center;
@@ -38,13 +67,35 @@ body ::selection{
 }
 
 .hero h2{
-	font-size: 30px;
+	font-size: 40px;
+	width: 100%;
 	padding: 10px;
 	text-shadow: 3px -1px 0 #f5c2e7, -3px 1px 0 #74c7ec;
 }
 
-/* Website lists */
+/* Search bar */
+#search{
+	background-color: #181825;
+	margin-top: 20px;
+	padding: 8px;
+	border-radius: 5px;
+	font-size: x-large;
+	text-align: center;
+}
 
+#search-input{
+	background-color: #181825;
+	padding: 5px;
+	border-radius: 5px;
+	width: 100%;
+	border:  hidden;
+	font-size: medium;
+	color: #cdd6f4;
+	font-family: Fira Code Nerd Font, monospace;
+	outline: none;
+}
+
+/* Website link container */
 .linkcontainer{
 	background-color: #181825;
 	display: flex;
