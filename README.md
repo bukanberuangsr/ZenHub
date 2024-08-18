@@ -14,6 +14,4 @@ Chrome or Chromium Based Browsers
 
 Firefox or Firefox Based Browsers
 
-<!-- <img src="src/image/Showcase_2.png"> -->
-
 ![ZenHub Firefox Showcase](src/image/Showcase_2.png "Showcase 2")
