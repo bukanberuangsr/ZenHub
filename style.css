@@ -6,8 +6,6 @@
 body{
 	background-color: #1e1e2e;
 	font-family: FiraCode Nerd Font, monospace;
-	padding: 8% 25% 7% 25%;
-	vertical-align: middle;
 }
 
 body ::selection{
@@ -17,6 +15,7 @@ body ::selection{
 .container{
 	height: 100%;
 	background-color: #11111b;
+	margin: 10% 25% 5% 25%;
 	padding: 15px 15px 15px 15px;
 	color: #cdd6f4;
 	border-radius: 10px;
