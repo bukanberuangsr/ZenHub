@@ -6,10 +6,10 @@
 body{
 	background-color: #1e1e2e;
 	font-family: FiraCode Nerd Font, monospace;
+	::selection{
+		background-color: #9399b2;
 }
 
-body ::selection{
-	background-color: #9399b2;
 }
 
 .container{
@@ -27,26 +27,24 @@ body ::selection{
 	vertical-align: middle;
 	margin-bottom: 15px;
 	float: left;
+	.dot {
+		height: 13px;
+		width: 13px;
+		border-radius: 50%;
+		display: inline-block;
+	}
+	#close{
+		background-color: #f38ba8;
+	}
+	#maximize{
+		background-color: #a6e3a1;
+	}
+	#minimize{
+		background-color: #fab387;
+	}
 }
 
-.dot {
-	height: 13px;
-	width: 13px;
-	border-radius: 50%;
-	display: inline-block;
-}
 
-#close{
-	background-color: #f38ba8;
-}
-
-#maximize{
-	background-color: #a6e3a1;
-}
-
-#minimize{
-	background-color: #fab387;
-}
 
 #clock{
 	margin-bottom: 15px;
@@ -62,13 +60,12 @@ body ::selection{
 	color: #11111b;
 	padding: 20px 20px 20px 20px;
 	border-radius: 5px;
-}
-
-.hero h2{
-	font-size: 40px;
-	width: 100%;
-	padding: 10px;
-	text-shadow: 3px -1px 0 #f5c2e7, -3px 1px 0 #74c7ec;
+	h2{
+		font-size: 40px;
+		width: 100%;
+		padding: 10px;
+		text-shadow: 3px -1px 0 #f5c2e7, -3px 1px 0 #74c7ec;
+	}
 }
 
 /* Search bar */
@@ -102,45 +99,35 @@ body ::selection{
 	margin-top: 20px;
 	padding: 10px 10px 10px 10px;
 	border-radius: 5px;
-}
-
-ul{
-	list-style-type: none;
-	padding-left: 0%;
-	text-align: center;
-}
-
-/* link Heading color and animations */
-
-#campus{
-	color: #fab387;
-}
-
-#dev{
-	color: #f38ba8;
-}
-
-#media{
-	color: #a6e3a1;
-}
-
-#work{
-	color: #f9e2af;
-}
-
-/* Links */
-
-li{
-	text-align: center;
-	margin:  10px 10px 10px 10px;
-}
-
-li a{
-	text-decoration: none;
-	color: #89b4fa;
-}
-
-li a:hover{
-	text-decoration: none;
-	color: #f5e0dc;
+	ul{
+		list-style-type: none;
+		padding-left: 0%;
+		text-align: center;
+		/* link Heading color and animations */
+		#campus{
+			color: #fab387;
+		}
+		#dev{
+			color: #f38ba8;
+		}
+		#media{
+			color: #a6e3a1;
+		}
+		#work{
+			color: #f9e2af;
+		}
+		/* Links */
+		li{
+			text-align: center;
+			margin:  10px 10px 10px 10px;
+		}
+		li a{
+			text-decoration: none;
+			color: #89b4fa;
+		}
+		li a:hover{
+			text-decoration: none;
+			color: #f5e0dc;
+		}
+	}
 }
