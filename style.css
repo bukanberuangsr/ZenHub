@@ -8,8 +8,7 @@ body{
 	font-family: FiraCode Nerd Font, monospace;
 	::selection{
 		background-color: #9399b2;
-}
-
+	}
 }
 
 .container{
