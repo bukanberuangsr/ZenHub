@@ -43,8 +43,6 @@ body{
 	}
 }
 
-
-
 #clock{
 	margin-bottom: 15px;
 	border-radius: 5px;
@@ -61,7 +59,6 @@ body{
 	border-radius: 5px;
 	h2{
 		font-size: 40px;
-		width: 100%;
 		padding: 10px;
 		text-shadow: 3px -1px 0 #f5c2e7, -3px 1px 0 #74c7ec;
 	}
